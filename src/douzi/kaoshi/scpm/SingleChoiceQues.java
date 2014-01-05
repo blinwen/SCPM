@@ -4,24 +4,24 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Ò»¸öµ¥Ñ¡Ìâ,Ö»ÓĞÒ»¸öÌâ¸É,µ«Æä¿ÉÄÜ¶ÔÓ¦Èô¸É¸öÑ¡ÔñÌâÄ¿
+ * ä¸€ä¸ªå•é€‰é¢˜,åªæœ‰ä¸€ä¸ªé¢˜å¹²,ä½†å…¶å¯èƒ½å¯¹åº”è‹¥å¹²ä¸ªé€‰æ‹©é¢˜ç›®
  * @author wenbaolin
  *
  */
 public class SingleChoiceQues {
 	
 	/**
-	 * ÌâÄ¿±àºÅ
+	 * ï¿½ï¿½Ä¿ï¿½ï¿½ï¿½
 	 */
 	private int 				mID;
 	
 	/**
-	 * Ìâ¸ÉÄÚÈİ
+	 * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	 */
 	private String				mContent;
 	
 	/**
-	 * Ìâ¸ÉÏÂ¶ÔÓ¦µÄÈô¸ÉÌâÄ¿(¼´ÎÊÌâ)
+	 * ï¿½ï¿½ï¿½ï¿½Â¶ï¿½Ó¦ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿(ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
 	 */
 	private List<SubChoiceQues>		mSubChoice;
 	

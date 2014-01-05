@@ -111,10 +111,10 @@ public class MainActivity extends Activity {
 	
 	private void nextQuestion(){
 		
-		//先判断是否越界
+		//check out of array
 		if(mCurQuestID + 1 >= mData.size()){
 			
-			Toast.makeText(this, "已经是最后一题了", Toast.LENGTH_SHORT).show();
+			Toast.makeText(this, getString(R.string.warning_last_item), Toast.LENGTH_SHORT).show();
 			return;
 		}
 		
@@ -202,7 +202,7 @@ public class MainActivity extends Activity {
 	}
 	
 	/**
-	 * 从数据库获取数据
+	 * init data
 	 */
 	private void initData(){
 
@@ -270,7 +270,7 @@ public class MainActivity extends Activity {
 			
 			LinearLayout	subroot = new LinearLayout(this);
 
-			View			title 		= createTitle("题("+ ci.mID++ +")");
+			View			title 		= createTitle( getString(R.string.item_name) +"("+ ci.mID++ +")");
 			
 			subroot.setOrientation(LinearLayout.VERTICAL);
 			subroot.addView(title,params);
