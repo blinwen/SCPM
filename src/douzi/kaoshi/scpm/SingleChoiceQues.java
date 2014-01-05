@@ -11,17 +11,17 @@ import java.util.List;
 public class SingleChoiceQues {
 	
 	/**
-	 * ��Ŀ���
+	 * 题目编号
 	 */
 	private int 				mID;
 	
 	/**
-	 * �������
+	 * 题干内容
 	 */
 	private String				mContent;
 	
 	/**
-	 * ����¶�Ӧ��������Ŀ(������)
+	 * 题干下对应的若干题目(即问题)
 	 */
 	private List<SubChoiceQues>		mSubChoice;
 	
