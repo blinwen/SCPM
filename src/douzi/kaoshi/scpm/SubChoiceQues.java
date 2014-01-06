@@ -5,7 +5,7 @@ public class SubChoiceQues {
 	public int 			mID;
 	
 	/**
-	 * 正确选项 1/2/3/4 -> A/B/C/D
+	 * 姝ｇ‘绛旀 1/2/3/4 -> A/B/C/D
 	 */
 	private int 			mTrueChoice;
 	
