@@ -27,3 +27,11 @@ proguard/
 *.ipr
 *.iws
 .idea/
+
+
+.cproject
+obj/
+*.a
+
+.settings/
+/Default
